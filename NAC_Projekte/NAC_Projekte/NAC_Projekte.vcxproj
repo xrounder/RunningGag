@@ -118,6 +118,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Hauptprogramm.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Vektor.h" />
+    <ClInclude Include="Vektor2D.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hauptprogramm.cpp" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Vektor.cpp" />
+    <ClCompile Include="Vektor2D.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
