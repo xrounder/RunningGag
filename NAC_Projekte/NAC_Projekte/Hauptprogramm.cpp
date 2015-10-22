@@ -16,7 +16,7 @@ int main(int argc, char* argv[]) {
 	cout << betrag <<endl;
 
 	Vektor2D vek(1, 2);
-	vek.ausgabe();	
+	vek.ausgabe();
 	cout << "Betrag " << vek.betrag() << endl;
 
 	Vektor2D vek2(2, 3);
@@ -25,9 +25,10 @@ int main(int argc, char* argv[]) {
 	vek.ausgabe();
 	cout << "Betrag " << vek.betrag() << endl;*/
 
+
 	/*Testprogramm*/
-	cout << "Test:" << endl;
-	
+	/*cout << "Test:" << endl;
+
 	Vektor2D a(3, 1), b(1, 2), c;
 	c.addiere(a);
 	c.ausgabe();
@@ -39,17 +40,17 @@ int main(int argc, char* argv[]) {
 	cout << "Betrag der Summe: " << b.betrag() << endl;
 
 	/*PU3*/
-	cout << "----PU3----" << endl;
+	/*cout << "----PU3----" << endl;
 	Vektor2D* z = new Vektor2D(-3, 1);
 	Vektor2D* w = new Vektor2D;
 	a.addiere(*z);
 	cout << "Vektor a: ";
 	a.ausgabe();
-		
+
 	w->addiere(*z);
 	cout << "Vektor w: ";
 	(*w).ausgabe();
-	
+
 	w->addiere(b);
 	cout << "Vektor w: ";
 	w->ausgabe();
@@ -75,5 +76,27 @@ int main(int argc, char* argv[]) {
 
 
 	delete z;
-	delete w;
+	delete w;*/
+	
+	//PU4
+	Vektor2D v(1, 2), w(3, 4);
+	Matrix m;
+	Matrix* mpointer;
+
+	m = v;
+	mpointer = &v;
+
+	cout << "Ausgabe von M und über Mpointer" << endl;
+	m.ausgabe();
+	mpointer->ausgabe();
+
+	v.addiere(w);
+	cout << "Ausgabe von v nach Addieren" << endl;
+	v.ausgabe();
+
+	cout << "Ausgabe von M/Mpointer nach Add." << endl;
+	m.ausgabe();
+	mpointer->ausgabe();
+
+	return 0;
 }

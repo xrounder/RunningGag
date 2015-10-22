@@ -1,4 +1,5 @@
 #include "Vektor2D.h"
+#include <iostream>
 
 Vektor2D::Vektor2D(int x, int y)
 {
@@ -36,5 +37,13 @@ void tausche(Vektor2D *a, Vektor2D *b)
 	Vektor2D temp = *a;
 	b->kopiereIn(a);
 	temp.kopiereIn(b);
+
+}
+
+void Vektor2D::ausgabe()
+{
+	std::cout << "Vektor2D: ";
+	Matrix::ausgabe();
+
 
 }

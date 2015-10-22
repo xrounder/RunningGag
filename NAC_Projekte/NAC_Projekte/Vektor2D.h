@@ -10,6 +10,7 @@ public:
 	void addiere(Vektor2D v);
 	void kopiereIn(Vektor2D* zielvar);
 	virtual ~Vektor2D();
+	void ausgabe();
 };
 #endif
 
