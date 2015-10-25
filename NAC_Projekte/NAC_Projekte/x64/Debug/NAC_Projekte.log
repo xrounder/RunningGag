@@ -1,8 +1,20 @@
-﻿Der Buildvorgang wurde am 22.10.2015 12:40:14 gestartet.
-     1>Projekt "Z:\NAC\NAC_Uebung\RunningGag\NAC_Projekte\NAC_Projekte\NAC_Projekte.vcxproj" auf Knoten "2", Build Ziel(e).
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.Cpp.Platform.targets(64,5): error MSB8020: The build tools for v140 (Platform Toolset = 'v140') cannot be found. To build using the v140 build tools, please install v140 build tools.  Alternatively, you may upgrade to the current Visual Studio tools by selecting the Project menu or right-click the solution, and then selecting "Upgrade Solution...".
-     1>Die Erstellung des Projekts "Z:\NAC\NAC_Uebung\RunningGag\NAC_Projekte\NAC_Projekte\NAC_Projekte.vcxproj" ist abgeschlossen, Build Ziel(e) -- FEHLER.
+﻿Der Buildvorgang wurde am 25.10.2015 21:08:12 gestartet.
+     1>Projekt "C:\Users\Miguel\C-Projekte\NAC_Projekte\NAC_Projekte\NAC_Projekte.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TP /errorReport:prompt Vektor.cpp
+         Vektor.cpp
+     1>c:\users\miguel\c-projekte\nac_projekte\nac_projekte\vektor.cpp(24): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+     1>c:\users\miguel\c-projekte\nac_projekte\nac_projekte\vektor.cpp(35): warning C4244: "+=": Konvertierung von "float" in "int", möglicher Datenverlust
+     1>c:\users\miguel\c-projekte\nac_projekte\nac_projekte\vektor.cpp(41): warning C4244: "return": Konvertierung von "std::numeric_limits<float>::_Ty" in "int", möglicher Datenverlust
+     1>c:\users\miguel\c-projekte\nac_projekte\nac_projekte\vektor.cpp(52): warning C4244: "return": Konvertierung von "double" in "float", möglicher Datenverlust
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Miguel\C-Projekte\NAC_Projekte\x64\Debug\NAC_Projekte.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Miguel\C-Projekte\NAC_Projekte\x64\Debug\NAC_Projekte.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Miguel\C-Projekte\NAC_Projekte\x64\Debug\NAC_Projekte.lib" /MACHINE:X64 x64\Debug\Hauptprogramm.obj
+         x64\Debug\Matrix.obj
+         x64\Debug\Vektor.obj
+         x64\Debug\Vektor2D.obj
+         NAC_Projekte.vcxproj -> C:\Users\Miguel\C-Projekte\NAC_Projekte\x64\Debug\NAC_Projekte.exe
+     1>Die Erstellung von Projekt "C:\Users\Miguel\C-Projekte\NAC_Projekte\NAC_Projekte\NAC_Projekte.vcxproj" ist abgeschlossen (Build Ziel(e)).
 
-Fehler beim Buildvorgang.
+Der Buildvorgang wurde erfolgreich ausgeführt.
 
-Verstrichene Zeit 00:00:00.01
+Verstrichene Zeit 00:00:01.77

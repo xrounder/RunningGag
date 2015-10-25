@@ -8,6 +8,8 @@ public:
 	Vektor();
 	virtual ~Vektor();
 	float betrag();
+	int skalarprodukt(Vektor vek);
+	float winkel(Vektor vek);
 };
 #endif
 

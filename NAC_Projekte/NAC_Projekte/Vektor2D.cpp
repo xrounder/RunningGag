@@ -45,5 +45,4 @@ void Vektor2D::ausgabe()
 	std::cout << "Vektor2D: ";
 	Matrix::ausgabe();
 
-
 }
